@@ -167,7 +167,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar{
   font-family: 'Staatliches';
 }
-@media (min-width:0px) and (max-width:900px) {
+@media screen and (max-width:900px) {
   .navbar-default .navbar-brand {
     font-weight: 100;
     font-size: 3rem;
@@ -175,7 +175,7 @@ fieldset[disabled] .btn-primary.active {
 
   }
 }
-@media (min-width:0px) and (min-width:768px) {
+@media screen and (min-width:768px) {
 
     .navbar-default {
         padding: 25px 0;
@@ -214,7 +214,6 @@ fieldset[disabled] .btn-primary.active {
 
 
 body{
-  text-align: center;
   background-color: #ebedec;
   padding-top: 40px;
   padding-left: 0;
@@ -239,7 +238,7 @@ body{
   color: #252525;
 }
 
-@media screen and (min-width: 1024px) and (max-width:2000px) {
+@media screen and (min-width: 1024px){
   .hero {
     height: 100vh;
     min-height: 100vh;
@@ -287,7 +286,7 @@ body{
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-@media (min-width: 900px) and (max-width: 2000px) {
+@media (min-width: 900px) {
 	.person_image {
 		-webkit-clip-path: polygon(31% 0, 100% 0%, 100% 100%, 0% 100%);
 		clip-path: polygon(31% 0, 100% 0%, 100% 100%, 0% 100%);
@@ -296,7 +295,7 @@ body{
 
 
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .heading {
     font-weight: 800;
     font-size: 4.5rem;
@@ -319,7 +318,7 @@ body{
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 580px) {
+@media screen and (max-width: 580px) {
   .heading {
     font-weight: 500;
     font-size: 4rem;
@@ -365,7 +364,7 @@ body{
       background-color: #ebedec;
 	  }
 }
-@media screen and (min-width: 1025px) and (max-width: 2000px) {
+@media screen and (min-width: 1025px){
   .popup{  
     text-align: center;
     margin-left: 100px;
