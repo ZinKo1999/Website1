@@ -284,7 +284,8 @@ body{
 
 .person_image {
 	width: 20%;
-  min-width: 200px;
+  min-width: 300px;
+
 	height: auto;
   max-width: 100%;
 	object-fit: cover;
@@ -323,6 +324,7 @@ body{
     margin-top: 0rem;
     display: inline;
   }
+
 }
 
 
@@ -341,7 +343,7 @@ body{
 
   .paragraph {
     font-weight: 50000;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-top: 0rem;
     display: inline;
   }
